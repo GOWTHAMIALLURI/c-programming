@@ -35,7 +35,7 @@ int main()
   	
     return 0;
 }
-
+ /*
 OUTPUT:
 Input (stdin)
 2
@@ -49,3 +49,4 @@ Expected Output
 2 2 2
 2 1 2
 2 2 2
+*/
