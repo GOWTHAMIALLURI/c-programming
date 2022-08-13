@@ -1,0 +1,28 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    char ch='A',ch1='a';
+    int i,j,n;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("%c%c ",ch,ch1);
+            ch++;
+            ch1++;
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
+OUTPUT:
+5
+Aa 
+Bb Cc 
+Dd Ee Ff 
+Gg Hh Ii Jj 
+Kk Ll Mm Nn Oo 
