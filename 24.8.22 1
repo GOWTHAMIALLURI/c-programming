@@ -17,11 +17,11 @@ int main() {
 }
 
 //output:
-/tmp/9rMBpAT8YB.o
-enter n value:6
+/*enter n value:6
 6
 65
 654
 6543
 65432
 654321
+*/
