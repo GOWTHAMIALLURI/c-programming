@@ -1,0 +1,84 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include<stdlib.h>
+
+struct node
+{
+    int data;
+    struct node *next;
+};
+struct node *head;
+void insert_end();
+void display();
+void search();
+void main()
+{
+    insert_end();
+    insert_end();
+    display();
+    search();
+    
+}
+void insert_end()
+{
+    struct node *newnode,*temp;
+    int x;
+    newnode=(struct node*)malloc(sizeof(struct node));
+    printf("enter element:");
+    scanf("%d",&x);
+    newnode->data=x;
+    newnode->next=NULL;
+    if(head==NULL)
+        head=newnode;
+        else
+    {
+        temp=head;
+        while(temp->next!=NULL)
+        temp=temp->next;
+        temp->next=newnode;
+        
+    }
+    
+    }
+    void display()
+    {
+        struct node *temp;
+        if(head==NULL)
+        printf("no nodes");
+        else
+        {
+        temp=head;
+        while(temp->next!=NULL)
+        {
+        printf("%d->",temp->data);
+        temp=temp->next;
+        }
+        printf("%d->NULL",temp->data);
+        }
+    
+    }
+void search()
+{
+    struct node *temp;
+    int x,c=0;
+    if(head==NULL)
+    printf("no nodes");
+    else
+    {
+    printf("\nenter element to search:");
+    scanf("%d",&x);
+        temp=head;
+        while(temp!=NULL)
+        {
+            if(temp->data==x)
+            c++;
+            temp=temp->next;
+        }
+        if(c==1)
+        printf("element found");
+        else
+        printf("element not found");
+    }
+}
+
+
