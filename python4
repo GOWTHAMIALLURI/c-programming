@@ -1,0 +1,7 @@
+n1=5
+n2=10
+div=n1/n2
+print("div of {0} and {1} is {2}".format(n1,n2,div))
+
+#output
+div of 5 and 10 os 0.5
