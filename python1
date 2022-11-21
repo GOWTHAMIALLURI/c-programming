@@ -1,0 +1,7 @@
+n1=5
+n2=6
+sum=n1+n2
+print("sum of {0} and {1} is {2}".format(n1,n2,sum))
+
+#output
+sum of 5 and 6 is 11
