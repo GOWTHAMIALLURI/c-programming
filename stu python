@@ -1,0 +1,30 @@
+sno=int(input("sno="))
+name=input("stu name=")
+gen=input("gender=")
+gro=input("group=")
+add=input("address=")
+phn=int(input("phn no="))
+print("student details=")
+print("sno=",sno)
+print("stu name=",name)
+print("gender=",gen)
+print("group=",gro)
+print("address=",add)
+print("phn no=",phn)
+
+
+#output
+sno=1
+stu name=Rhea
+gender=female
+group=BCA
+address=vsp
+phn no=1234567890
+student details=
+sno= 1
+stu name= Rhea
+gender= female
+group= BCA
+address= vsp
+phn no= 1234567890
+> 
