@@ -1,0 +1,13 @@
+list=[1,2,3,4,5]
+print("enter the number")
+a=int(input())
+if a in list:
+    print("yes")
+else:
+    print("no")
+    
+  #output
+  enter the number
+3
+yes
+> 
