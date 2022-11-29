@@ -1,0 +1,31 @@
+empno=int(input("emp no="))
+empname=(input("emp name="))
+empdesig=(input("emp designation=" ))
+bs=int(input("basic salary="))
+da=int(input("da="))
+ta=int(input("ta="))
+hra=int(input("hra="))
+ns=bs+da+ta+hra;
+print("net salary=",ns)
+if ns>100000:
+    print("tax=",ns*10/100)
+elif ns>50000:
+        print("tax=",ns*7/100)
+elif ns>40000:
+        print("tax=",ns*4/100)
+elif ns>20000:
+        print("tax=",ns*2/100)
+elif ns<20000:
+        print("tax=0%")
+        
+#output
+emp no=1
+emp name=sree
+emp designation=programmer
+basic salary=80000
+da=4000
+1ta=1000
+hra=3000
+net salary= 88000
+tax= 6160.0
+> 
