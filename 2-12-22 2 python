@@ -1,0 +1,43 @@
+#program1
+def vote(y):
+    if y>=18:
+        print("yes")
+    else:
+        print("no")
+y=int(input())
+vote(y)
+
+#output
+20
+yes
+
+
+#program2
+def vote(y):
+   if y>=18:
+       return 'yes'
+   else:
+       return 'no'
+y=int(input())
+vote(y)
+print(vote(y))
+
+#output
+14
+no
+
+#program3
+def vote(y):
+   if y>=18:
+       return True
+   else:
+       return False
+y=int(input())
+if vote(y):
+    print("yes")
+else:
+    print("no")
+    
+ #output
+ 23
+ yes
