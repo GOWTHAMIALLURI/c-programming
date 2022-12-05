@@ -1,0 +1,21 @@
+int(input())
+num=int(input())
+min=num
+i=1
+while(i<n):
+    s=int(input())
+    if(s>num):
+        num=s
+    elif s<num:
+        min=s
+    i=i+1
+print("num=",num)
+print("min=",min)    
+    
+    
+    
+    
+    
+    
+    
+    
