@@ -1,0 +1,8 @@
+n=int(input())
+i=1
+sum=0
+while(i<=n):
+    s=int(input())
+    sum=sum+s
+    i=i+1
+print("sum=",sum)
