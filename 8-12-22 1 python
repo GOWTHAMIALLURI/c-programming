@@ -1,0 +1,13 @@
+n= int(input("number of rows: "))  
+for a in range(n+1,0,-1):
+    for b in range(0,a-1):
+        print("*",end=' ')  
+    print(" ")
+
+
+#output
+number of rows:4
+* * * *
+* * *
+* *
+*
