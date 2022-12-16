@@ -1,0 +1,14 @@
+str=input("enter the string:")
+len=len(str)
+print("length of string is",len)
+print("string in lower case",str.lower())
+print("string in upper case",str.upper())
+print("string after swapcase",str.swapcase())
+
+#output
+enter the string:Welcome
+length of string is 7
+string in lower case welcome
+string in upper case WELCOME
+string after swapcase wELCOME
+
