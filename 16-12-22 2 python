@@ -1,0 +1,13 @@
+str=input("enter a string:")
+n=len(str)
+c=0
+for i in range(0,n):
+    if str[i].isalpha()==1:
+        c=c+1
+print("no of alphabets:",c)
+
+#output
+ =========================
+enter a string:Hello$123
+no of alphabets: 5
+
