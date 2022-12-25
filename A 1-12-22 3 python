@@ -1,11 +1,11 @@
 def is_leap(year):
-    leap = False
+    leap = notleapyear
     if year%4==0 and year%100!=0:
-        return True
+        return leapyear
     elif year%400==0:
-        return True
+        return leapyear
     else:
-        return False
+        return notleapyear
     return leap
 
 year = int(input())
@@ -14,4 +14,4 @@ year = int(input())
 Input (stdin)
 1990
 Expected Output
-False
+notleap year
